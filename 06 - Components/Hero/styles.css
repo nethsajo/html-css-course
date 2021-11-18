@@ -1,0 +1,109 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+COLOR SYSTEM
+
+MAIN COLOR: #087f5b
+ACCENT COLOR - 
+GRAY COLOR - #343a40
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+}
+
+body {
+  line-height: 1;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  /* background-color: orangered; */
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("./images/hero.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  /* background-image: linear-gradient(to right, red, blue); */
+  /* background-color: green; */
+}
+
+.header-container {
+  width: 1200px;
+  position: absolute;
+  /* In relation to PARENT SIZE */
+  left: 50%;
+  top: 50%;
+  /* In relation to ELEMENT SIZE */
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+  /* background-color: violet; */
+}
+
+.header-container-inner {
+  width: 50%;
+  /* background-color: blue; */
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e67e22;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}
