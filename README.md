@@ -1,1 +1,1 @@
-Build Responsive Real-World Websites with HTML and CSS by Johan Schmedtmann
+Build Responsive Real-World Websites with HTML and CSS by Jonas Schmedtmann
